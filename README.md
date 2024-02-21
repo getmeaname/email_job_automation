@@ -1,4 +1,4 @@
-# Bengaluru Startup IT Companies Email Sender
+# Email Automation for job searching
 
 ## Overview
 
