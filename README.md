@@ -14,6 +14,7 @@ This project is a simple Python program designed to read email addresses from th
 
 - Python 3.9 and above.
 - Libraries: `pandas`, `smtplib`, `email`, `os`
+- PythonAnywhere account for deploying and scheduling the application.
 
 ## Usage
 
@@ -53,4 +54,29 @@ This project is a simple Python program designed to read email addresses from th
 - Ensure that you have a working internet connection for sending emails using the specified SMTP server.
 - Customize the SMTP server settings in the `main.py` file according to your email provider.
 
-Feel free to contribute, report issues, or suggest improvements. Happy emailing!
+# Automating this program to run everyday on cloud (for free).
+
+## Deployment on PythonAnywhere
+### Uploading Files
+- Log in to your PythonAnywhere account and open the Dashboard.
+- Navigate to the "Files" tab.
+- Create a new folder named kafka by clicking on the "New Directory" button.
+- Inside the kafka folder, upload the project files (subject.txt, template.txt) from your email_job_automation project. You can do this by selecting the "Upload a file" button and choosing the files from your local machine.
+
+### Scheduling the Task
+- Go to the "Tasks" tab from the PythonAnywhere Dashboard.
+- Schedule a new task by entering the command to run your script. 
+  ```bash
+   python3 main.py
+   ```
+- Set the time you want the task to run. PythonAnywhere uses UTC time, so adjust accordingly to your needs.
+
+# Support and Contribution
+For support, questions, or contributions to the email_job_automation project, please contact [arun.idk20@gmail.com] or submit an issue/pull request to the project's GitHub repository.
+
+Remember, this README is a starting point. Depending on the specifics of your project, such as additional configuration steps, usage instructions, or dependencies, you may need to provide more detailed documentation.
+
+
+
+
+
