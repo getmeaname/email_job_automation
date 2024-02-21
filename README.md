@@ -66,9 +66,11 @@ This project is a simple Python program designed to read email addresses from th
 ### Scheduling the Task
 - Go to the "Tasks" tab from the PythonAnywhere Dashboard.
 - Schedule a new task by entering the command to run your script. 
+
   ```bash
    python3 main.py
    ```
+
 - Set the time you want the task to run. PythonAnywhere uses UTC time, so adjust accordingly to your needs.
 
 # Support and Contribution
