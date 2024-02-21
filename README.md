@@ -62,7 +62,8 @@ This project is a simple Python program designed to read email addresses from th
 - Navigate to the "Files" tab.
 - Create a new folder named kafka by clicking on the "New Directory" button.
 - Inside the kafka folder, upload the project files (subject.txt, template.txt) from your email_job_automation project. You can do this by selecting the "Upload a file" button and choosing the files from your local machine.
-  ![]()
+
+  ![](https://github.com/getmeaname/email_job_automation/blob/master/GIF%201.gif)
 
 ### Scheduling the Task
 - Go to the "Tasks" tab from the PythonAnywhere Dashboard.
@@ -73,6 +74,7 @@ This project is a simple Python program designed to read email addresses from th
    ```
 
 - Set the time you want the task to run. PythonAnywhere uses UTC time, so adjust accordingly to your needs.
+
   ![](https://github.com/getmeaname/email_job_automation/blob/master/GIF%202.gif)
 
 # Support and Contribution
